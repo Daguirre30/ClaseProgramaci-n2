@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1492475089 source:d:\daniel lugo\abm con arrays\abmarrays\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"funciones.h"
+
+1492474306 d:\daniel lugo\abm con arrays\abmarrays\funciones.h
+
