@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1492562033 source:d:\daniel lugo\matrices\matrices\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1492564149 source:d:\daniel lugo\matrices\matrices\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"funciones.h"
+
+1492560458 d:\daniel lugo\matrices\matrices\funciones.h
+
