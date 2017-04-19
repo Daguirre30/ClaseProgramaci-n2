@@ -55,10 +55,18 @@
             scanf("%s", productoArray[i].descripcion);
             printf("Ingrese precio del producto\n");
             scanf("%f", &productoArray[i].importe);
+         
+           productoArray[i].estado=1;
+           flagEncontro =1;
+          
+  
             system("cls");
             break;
         }
-
+        if(!flagEncontro)
+        {
+         printf("No hay espacio suficiente");
+        } 
     }
   }
 
