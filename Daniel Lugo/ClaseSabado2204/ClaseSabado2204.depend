@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1492874000 source:d:\daniel lugo\clasesabado2204\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1492874414 d:\daniel lugo\clasesabado2204\funciones.h
+
+1492873438 source:d:\daniel lugo\clasesabado2204\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1492871700 d:\daniel lugo\clasesabado2204\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
