@@ -7,8 +7,6 @@
 
 
 
-
-
 /** \brief función para dar de alta a una abonado
   * \param1 recibe un array de la estructura abonado
   * \param2 recibe la cantidad definida
@@ -29,24 +27,8 @@ void altaAbonado(Eabonado abonado[], int cantidad)
     {
         if(abonado[i].estado == 0) // si esta desocupada esa posicion
         {
-            printf("Ingrese DNI\n");
-            getchar();
-            fflush(stdin);
-            gets(abonado[i].dni);
-            while(strlen(abonado[i].dni)>=9)
-            {
-                printf("Error, el DNI debe ser menor a 9\n");
-                printf("Ingrese DNI\n");
-                fflush(stdin);
-                gets(abonado[i].dni);
-            }
-            while(ValidarNumero(abonado[i].dni)==0)
-            {
-                printf("Error, el DNI debe ser numerico\n");
-                printf("Ingrese DNI\n");
-                fflush(stdin);
-                gets(abonado[i].dni);
-            }
+            abonado[i].idAbonado == i+1;
+            printf("ID del abonado\n");
             abonado[i].estado = 1;
             printf("Ingrese nombre del abonado\n");// ingreso nombre, edad, etc.
             gets(abonado[i].nombre);
@@ -306,5 +288,29 @@ void inicializar(Eabonado abonado[], int cantidad)
         abonado[i].estado=0;
 
     }
+
+}
+
+/** \brief inicializa el array .
+*
+* \param1 recibe un array de estructura .
+* \param2 recibe ña cantidad definida del array
+* \return retorna el id que corresponde a la casilla
+*
+*/
+void asignarID(Eabonado abonado [], int cantidad)
+{
+  int i;
+ 
+  for(i=0; i<cantidad; i++)
+  {
+   
+    if(abonado[i].estado == 0)
+    {
+      abonado[i].idAbonado == i+1;
+    }
+
+  }
+
 
 }
